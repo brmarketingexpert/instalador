@@ -58,7 +58,7 @@ sudo su - deploy << EOF
 NODE_ENV=
 BACKEND_URL=${backend_url}
 FRONTEND_URL=${frontend_url}
-PROXY_PORT=443
+PROXY_PORT=444
 PORT=${backend_port}
 
 DB_HOST=localhost
